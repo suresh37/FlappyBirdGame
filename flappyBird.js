@@ -35,7 +35,7 @@ scor.src = "sounds/score.mp3";
 
 document.addEventListener("keydown", () => { bY -= 25;  fly.play(); });
 
-document.addEventListener("touchend", () => { bY -= 25;  fly.play(); });
+document.addEventListener("touchstart", () => { bY -= 25;  fly.play(); });
 
 //pipe coordinates
 
